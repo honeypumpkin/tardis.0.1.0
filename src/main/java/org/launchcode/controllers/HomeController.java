@@ -20,3 +20,4 @@ public class HomeController {
     }
 
 }
+//TODO Send to initial log in page if no user cookie in session

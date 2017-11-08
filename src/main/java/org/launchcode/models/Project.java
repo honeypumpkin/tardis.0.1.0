@@ -48,3 +48,7 @@ public class Project {
         return tasks;
     }
 }
+
+//TODO add tasks as a part of projects
+
+//TODO fix remove to delete id from database

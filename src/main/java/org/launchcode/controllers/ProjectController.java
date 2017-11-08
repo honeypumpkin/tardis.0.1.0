@@ -3,7 +3,7 @@ Made by robin on 8/3/17, 9:50 PM
 */
 
 package org.launchcode.controllers;
-
+//TODO add tasks as a part of projects
 
 import org.launchcode.models.Project;
 import org.launchcode.models.data.ProjectDao;
@@ -70,6 +70,7 @@ public class ProjectController {
         model.addAttribute("title", "Remove Project");
         return "project/remove";
     }
+//TODO remove errors out
 
     @RequestMapping(value = "remove", method = RequestMethod.POST)
     public String processRemoveProjectForm(@RequestParam int[] ids) {
